@@ -19,3 +19,23 @@
 *.exe
 *.out
 *.app
+
+#
+# ignoring generated files
+#
+*~
+\#*
+.\#*
+*_?ats.o
+*_?ats.c
+
+#
+# Ignore log files (some can be very large)
+#
+*.log
+
+# From other benchmarksgame repos:
+a.out
+*.ll
+*.bc
+*.s
